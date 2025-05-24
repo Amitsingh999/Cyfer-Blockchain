@@ -1,0 +1,22 @@
+{
+  "name": "cyfer-blockchain",
+  "version": "1.0.0",
+  "description": "This project must be designed to introduce and promote the world of Cryptocurrency to both new and experienced users. The page should be crafted with a modern, responsive layout and intuitive navigation, offering a seamless user experience while delivering essential information about digital currencies and the services offered.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amitsingh999/Cyfer-Blockchain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amitsingh999/Cyfer-Blockchain/issues"
+  },
+  "homepage": "https://github.com/Amitsingh999/Cyfer-Blockchain#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.6"
+  }
+}
