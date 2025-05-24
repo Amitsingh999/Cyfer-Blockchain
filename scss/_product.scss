@@ -1,0 +1,182 @@
+.sakura-card {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 70px;
+    height: 80px;
+}
+
+.Komorebi-card {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 70px;
+    height: 80px;
+}
+
+.yugen-card {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 70px;
+    height: 80px;
+}
+
+.product-sakura-content {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+.product-komorebi-content {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+.product-yugen-content {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+@media(max-width: 1400px) {
+    .sakura-card {
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        width: 60px;
+        height: 60px;
+    }
+
+    .yugen-card {
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        width: 60px;
+        height: 60px;
+    }
+
+    .Komorebi-card {
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        width: 60px;
+        height: 60px;
+    }
+
+}
+
+@media(max-width: 1200px) {
+
+    .sakura-card {
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        width: 70px;
+        height: 80px;
+    }
+
+    .Komorebi-card {
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        width: 70px;
+        height: 80px;
+    }
+
+    .yugen-card {
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        width: 70px;
+        height: 80px;
+    }
+
+}
+
+
+@media(max-width: 992px) {
+    .sakura-card {
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        width: 60px;
+        height: 60px;
+    }
+
+    .yugen-card {
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        width: 60px;
+        height: 60px;
+    }
+
+    .Komorebi-card {
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        width: 60px;
+        height: 60px;
+    }
+
+}
+
+
+@media(max-width: 768px) {
+
+    .sakura-card {
+        position: absolute;
+        top: 20%;
+        left: 14%;
+        width: 70px;
+        height: 80px;
+    }
+
+    .Komorebi-card {
+        position: absolute;
+        top: 20%;
+        left: 14%;
+        width: 70px;
+        height: 80px;
+    }
+
+    .yugen-card {
+        position: absolute;
+        top: 20%;
+        left: 14%;
+        width: 70px;
+        height: 80px;
+    }
+
+}
+
+
+@media(min-width: 360px) and (max-width: 575px) {
+
+    .sakura-card {
+        position: absolute;
+        top: 13%;
+        left: 12%;
+        width: 50px;
+        height: 80px;
+    }
+
+    .Komorebi-card {
+        position: absolute;
+        top: 13%;
+        left: 12%;
+        width: 50px;
+        height: 80px;
+    }
+
+    .yugen-card {
+        position: absolute;
+        top: 13%;
+        left: 12%;
+        width: 50px;
+        height: 80px;
+    }
+
+}

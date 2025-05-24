@@ -1,0 +1,33 @@
+.Cryptocurrency .container {
+    background-image: url('../images/crypto-banner.svg');
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    
+};
+
+
+@media(max-width: 1400px){
+    .Cryptocurrency h2{
+        font-size: 2.9rem;
+    }
+    .Cryptocurrency p{
+        font-size: 1.1rem !important;
+    }
+}
+
+
+@media(max-width: 1200px){
+    .Cryptocurrency .container {
+    background-image: none;
+};
+}
+
+
+@media (max-width: 768px) {
+ .discover-image{
+    width: 80%;
+    aspect-ratio: 1/1
+ }
+  
+}

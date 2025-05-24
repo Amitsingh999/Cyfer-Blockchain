@@ -85,3 +85,29 @@
     font-size: 1rem;
   }
 }
+
+
+.normal-border {
+    display: inline-block;
+     margin: 0 auto;
+    padding: 10px 30px;
+    border: 2px solid #b78bfa;
+    border-radius: 50px;
+    color: #b78bfa;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s ease;
+   position: absolute;
+    top: -83px;
+    left: 40%;
+}
+
+@media(max-width: 575px){
+  .normal-border{
+    position: absolute;
+    top: -83px;
+    left: 30%;
+  }
+}
+

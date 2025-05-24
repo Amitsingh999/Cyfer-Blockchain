@@ -1,0 +1,44 @@
+.stats-section {
+
+    .stat-box {
+        position: relative;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .stat-box:not(:last-child)::after {
+        content: "";
+        position: absolute;
+        top: 0%;
+        right: 0;
+        height: 100%;
+        width: 2px;
+        background: linear-gradient(to bottom, #b37cff, #fff, #b37cff);
+
+    }
+
+   
+}
+
+
+@media (max-width: 1199.98px) {
+    .stat-box {
+        position: relative;
+    }
+
+    .stat-box::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60%;
+        height: 1px;
+        background: linear-gradient(to right, #b37cff, #fff, #b37cff);
+        opacity: 0.3;
+    }
+}
+
+
+
