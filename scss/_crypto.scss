@@ -1,3 +1,19 @@
+.Cryptocurrency::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transform: translate(-80%, -50%);
+  width: 50%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background: #B95DFE;
+  filter: blur(100px);
+  opacity: .2;
+  z-index: -1;
+  pointer-events: none;
+}
+
 .Cryptocurrency .container {
     background-image: url('../images/crypto-banner.svg');
     background-size: contain;
