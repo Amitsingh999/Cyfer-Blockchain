@@ -84,8 +84,11 @@
 }
 
 @media(max-width: 1200px) {
-  .service-left-vector {
-    display: none;
+   .service-left-vector {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 7%;
   }
 
   .service-right-vector {
@@ -114,4 +117,9 @@
   h2 {
     font-size: 2.2rem;
   }
+   .service-left-vector {
+    display: none;
+  }
+
+  
 }
